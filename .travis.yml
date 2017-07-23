@@ -12,7 +12,7 @@ install:
   - node --version
   - npm --version
   - npm install -g elm@$ELM_VERSION elm-test elm-verify-examples
-  - elm package install
+  - elm package install --yes
 
 script:
   - elm make
