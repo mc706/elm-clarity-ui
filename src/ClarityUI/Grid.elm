@@ -1,4 +1,4 @@
-module ClarityUI.Grid.Grid
+module ClarityUI.Grid
     exposing
         ( container
         , containerFluid

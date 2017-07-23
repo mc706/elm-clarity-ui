@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* copy grid from elm bootstrap
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 1.2.0 - (2017-07-23)
+---
+
+### New
+* copy grid from elm bootstrap
 
 
 ## 1.1.0 - (2017-07-23)
