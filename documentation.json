@@ -1,0 +1,76 @@
+[
+  {
+    "name": "ClarityUI.Alert",
+    "comment": " Clarity UI's Alerts.\n\n\n# Alerts\n\n@docs alert\n\n\n# Shorthand Inline Alerts\n\n@docs alertDanger, alertWarning, alertInfo, alertSuccess\n\n\n# App Alerts\n\n@docs alertAppDanger, alertAppWarning, alertAppInfo, alertAppSuccess\n\n\n# Options\n\n@docs AlertType\n\n\n# Data\n\n@docs AlertItem, AlertAction\n\n",
+    "aliases": [
+      {
+        "name": "AlertAction",
+        "comment": " Actions for an alert\n",
+        "args": [],
+        "type": "{ text : String, link : String }"
+      },
+      {
+        "name": "AlertItem",
+        "comment": " Item to pass to an alert\n",
+        "args": [],
+        "type": "{ text : String, actions : List ClarityUI.Alert.AlertAction }"
+      }
+    ],
+    "types": [
+      {
+        "name": "AlertType",
+        "comment": " Alert Type.\n",
+        "args": [],
+        "cases": []
+      }
+    ],
+    "values": [
+      {
+        "name": "alert",
+        "comment": " Main Alert Entry Point. Creates a clarity alert.\n\nDocumentation about Clarity Alerts: <https://vmware.github.io/clarity/documentation/alerts#top>\n\n",
+        "type": "ClarityUI.Alert.AlertType -> Bool -> Bool -> Bool -> ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertAppDanger",
+        "comment": " Alert App Danger.\nCurried Shortcut for a dismissible danger app alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertAppInfo",
+        "comment": " Alert App Info.\nCurried Shortcut for a dismissible Info app alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertAppSuccess",
+        "comment": " Alert App Success.\nCurried Shortcut for a dismissible Success app alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertAppWarning",
+        "comment": " Alert App Warning.\nCurried Shortcut for a dismissible warning app alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertDanger",
+        "comment": " Alert Danger.\nCurried Shortcut for a dismissible danger alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertInfo",
+        "comment": " Alert Info.\nCurried Shortcut for a dismissible Info alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertSuccess",
+        "comment": " Alert Success.\nCurried Shortcut for a dismissible Success alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      },
+      {
+        "name": "alertWarning",
+        "comment": " Alert Warning.\nCurried Shortcut for a dismissible warning alert.\n",
+        "type": "ClarityUI.Alert.AlertItem -> Html.Html msg"
+      }
+    ],
+    "generated-with-elm-version": "0.18.0"
+  }
+]

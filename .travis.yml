@@ -1,0 +1,19 @@
+os:
+  - linux
+
+env:
+  matrix:
+    - ELM_VERSION=0.18.0 TARGET_NODE_VERSION=node
+
+
+install:
+  - nvm install $TARGET_NODE_VERSION
+  - nvm use $TARGET_NODE_VERSION
+  - node --version
+  - npm --version
+  - npm install -g elm@$ELM_VERSION elm-test elm-verify-examples
+  - elm package install
+
+script:
+  - elm make
+  - elm-verify-examples && elm test
