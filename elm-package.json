@@ -8,7 +8,8 @@
     ],
     "exposed-modules": [
         "ClarityUI.Alert",
-        "ClarityUI.CDN"
+        "ClarityUI.CDN",
+        "ClarityUI.Grid"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
