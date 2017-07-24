@@ -1,13 +1,22 @@
-
 module ClarityUI.Grid.Row exposing (..)
 
 {-| Functions for creating grid row options.
+
+
 # Vertical alignment
+
 @docs topXs, topSm, topMd, topLg, topXl, middleXs, middleSm, middleMd, middleLg, middleXl, bottomXs, bottomSm, bottomMd, bottomLg, bottomXl
+
+
 # Horizontal alignment
+
 @docs leftXs, leftSm, leftMd, leftLg, leftXl, centerXs, centerSm, centerMd, centerLg, centerXl, rightXs, rightSm, rightMd, rightLg, rightXl, aroundXs, aroundSm, aroundMd, aroundLg, aroundXl, betweenXs, betweenSm, betweenMd, betweenLg, betweenXl
+
+
 # Misc
+
 @docs attrs, Option
+
 -}
 
 import Html

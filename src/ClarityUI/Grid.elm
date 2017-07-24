@@ -13,32 +13,62 @@ module ClarityUI.Grid
 
 {-| Clarity UI Uses the Bootstrap Flex-grid. This module is borrowed from `elm-bootstrap`
 
- Bootstrap includes a powerful mobile-first flexbox grid system for building layouts of all shapes and sizes. It’s based on a 12 column layout and has multiple tiers, one for each media query range.
-    Grid.container
-        [ Grid.row
-            [ Row.topXs ]
-            [ Grid.col
-                [ Col.xs4 ]
-                [ text "col1-row1"]
-            , Grid.col
-                [ Col.xs8 ]
-                [ text "col2-row1"]
-            ]
-        , Grid.simpleRow
-            [ Grid.col
-                [ Col.xs4 ]
-                [ text "col1-row2"]
-            , Grid.col
-                [ Col.xs6 ]
-                [ text "col2-row2"]
-            ]
-        ]
+Bootstrap includes a powerful mobile-first flexbox grid system for building layouts of all shapes and sizes. It’s based on a 12 column layout and has multiple tiers, one for each media query range.
+Grid.container
+[ Grid.row
+[ Row.topXs ][ Grid.col
+[ Col.xs4 ]
+[ text "col1-row1"]
+, Grid.col
+[ Col.xs8 ]
+[ text "col2-row1"]
+]
+, Grid.simpleRow
+[ Grid.col
+[ Col.xs4 ][ text "col1-row2"]
+, Grid.col
+[ Col.xs6 ][ text "col2-row2"]
+][ Grid.col
+[ Col.xs4 ]
+[ text "col1-row2"]
+, Grid.col
+[ Col.xs6 ]
+[ text "col2-row2"]
+]
+][ Grid.row
+[ Row.topXs ]
+[ Grid.col
+[ Col.xs4 ]
+[ text "col1-row1"]
+, Grid.col
+[ Col.xs8 ]
+[ text "col2-row1"]
+]
+, Grid.simpleRow
+[ Grid.col
+[ Col.xs4 ]
+[ text "col1-row2"]
+, Grid.col
+[ Col.xs6 ]
+[ text "col2-row2"]
+]
+]
+
+
 # Containers
+
 @docs container, containerFluid
+
+
 # Rows
+
 @docs row, simpleRow, keyedRow
+
+
 # Columns
+
 @docs col, colBreak, keyedCol, Column
+
 -}
 
 import Html exposing (Html, div, Attribute)
@@ -85,8 +115,10 @@ simpleRow cols =
 
 
 {-| Create a row
-* `options` List of row options
-* `cols` List of columns
+
+  - `options` List of row options
+  - `cols` List of columns
+
 -}
 row : List (Row.Option msg) -> List (Column msg) -> Html msg
 row options cols =
@@ -96,8 +128,10 @@ row options cols =
 
 
 {-| Create a row with keyed columns. Handy when you need to move columns around without getting massive rerenders.
-* `options` List of row options
-* `keydCols` List of key, column tuples
+
+  - `options` List of row options
+  - `keydCols` List of key, column tuples
+
 -}
 keyedRow : List (Row.Option msg) -> List ( String, Column msg ) -> Html msg
 keyedRow options keyedCols =
@@ -107,8 +141,10 @@ keyedRow options keyedCols =
 
 
 {-| Create a column
-* `options` List of column options
-* `children` List of child elments
+
+  - `options` List of column options
+  - `children` List of child elments
+
 -}
 col : List (Col.Option msg) -> List (Html msg) -> Column msg
 col options children =
@@ -119,8 +155,10 @@ col options children =
 
 
 {-| Create a column with keyed children
-* `options` List of column options
-* `keyedChildren` List of key,element child element tuples
+
+  - `options` List of column options
+  - `keyedChildren` List of key,element child element tuples
+
 -}
 keyedCol : List (Col.Option msg) -> List ( String, Html msg ) -> Column msg
 keyedCol options children =

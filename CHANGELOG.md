@@ -9,10 +9,12 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
+* add clarity icons
 
 ### Changes
 
 ### Fixes
+* update documentation formatting for grid
 
 ### Breaks
 
