@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add clarity card
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 1.4.0 - (2017-07-24)
+---
+
+### New
+* add clarity card
 
 
 ## 1.3.0 - (2017-07-24)
