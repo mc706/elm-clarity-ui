@@ -1,7 +1,7 @@
-[![Stories in Ready](https://badge.waffle.io/mc706/elm-clarity-ui.png?label=ready&title=Ready)](https://waffle.io/mc706/elm-clarity-ui?utm_source=badge)
 # elm-clarity-ui
 
 [![Build Status](https://travis-ci.org/mc706/elm-clarity-ui.svg?branch=master)](https://travis-ci.org/mc706/elm-clarity-ui)
+[![Stories in Ready](https://badge.waffle.io/mc706/elm-clarity-ui.png?label=ready&title=Ready)](https://waffle.io/mc706/elm-clarity-ui?utm_source=badge)
 
 Elm Package for Wrapping VM-Ware's Clarity UI. 
 
