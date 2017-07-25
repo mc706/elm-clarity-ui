@@ -11,11 +11,17 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### New
 
 ### Changes
-* add waffle.io badge
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.2.2 - (2017-07-25)
+---
+
+### Changes
+* add waffle.io badge
 
 
 ## 2.2.1 - (2017-07-25)
