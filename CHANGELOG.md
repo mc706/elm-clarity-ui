@@ -11,11 +11,17 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### New
 
 ### Changes
-* update example usage in main site
 
 ### Fixes
 
 ### Breaks
+
+
+## 1.5.1 - (2017-07-25)
+---
+
+### Changes
+* update example usage in main site
 
 
 ## 1.5.0 - (2017-07-24)
