@@ -11,11 +11,17 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### New
 
 ### Changes
-* update readme with subnav and sidenav examples
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.2.1 - (2017-07-25)
+---
+
+### Changes
+* update readme with subnav and sidenav examples
 
 
 ## 2.2.0 - (2017-07-25)
