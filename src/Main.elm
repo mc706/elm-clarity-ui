@@ -51,10 +51,35 @@ view model =
     div []
         [ ClarityUI.CDN.styles
         , ClarityUI.Layout.layout
-            { alerts = [ div [] [] ]
-            , header = [ div [] [] ]
-            , subnav = [ div [] [] ]
-            , sidenav = [ div [] [] ]
-            , main = [ div [] [] ]
+            { alerts = [ viewAlerts model ]
+            , header = [ viewHeader model ]
+            , subnav = [ viewSubnav model ]
+            , sidenav = [ viewSidenav model ]
+            , main = [ mainContent model ]
             }
         ]
+
+
+viewAlerts : Model -> Html Msg
+viewAlerts model =
+    div [] []
+
+
+viewHeader : Model -> Html Msg
+viewHeader model =
+    div [] []
+
+
+viewSubnav : Model -> Html Msg
+viewSubnav model =
+    div [] []
+
+
+mainContent : Model -> Html Msg
+mainContent model =
+    div [] []
+
+
+viewSidenav : Model -> Html Msg
+viewSidenav model =
+    div [] []
