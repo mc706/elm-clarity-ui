@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add clarity spinner
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.3.0 - (2017-07-25)
+---
+
+### New
+* add clarity spinner
 
 
 ## 2.2.2 - (2017-07-25)

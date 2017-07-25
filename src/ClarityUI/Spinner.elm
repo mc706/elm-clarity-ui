@@ -9,7 +9,7 @@ For more documentation on spinners: <https://vmware.github.io/clarity/documentat
 
 # Use
 
-@docs spinner, inlineSpinner, inverseSpinner
+@docs spinner, inlineSpinner, inverseSpinner, sizedSpinner
 
 
 # Options
