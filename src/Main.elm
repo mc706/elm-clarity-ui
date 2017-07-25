@@ -10,6 +10,7 @@ import Html exposing (..)
 import ClarityUI.CDN
 import ClarityUI.Layout
 import ClarityUI.Header exposing (HeaderColor(..))
+import ClarityUI.Subnav
 
 
 main : Program Never Model Msg
@@ -81,7 +82,12 @@ viewHeader model =
 
 viewSubnav : Model -> Html Msg
 viewSubnav model =
-    div [] []
+    ClarityUI.Subnav.subnav
+        [ { link = "#", text = "Example1" }
+        , { link = "#", text = "Example2" }
+        , { link = "#", text = "Example3" }
+        , { link = "#", text = "Example4" }
+        ]
 
 
 mainContent : Model -> Html Msg
