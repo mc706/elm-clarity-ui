@@ -9,6 +9,7 @@ import Html exposing (..)
 
 import ClarityUI.CDN
 import ClarityUI.Layout
+import ClarityUI.Header exposing (HeaderColor(..))
 
 
 main : Program Never Model Msg
@@ -50,13 +51,15 @@ view : Model -> Html Msg
 view model =
     div []
         [ ClarityUI.CDN.styles
+        , ClarityUI.CDN.icons
         , ClarityUI.Layout.layout
             { alerts = [ viewAlerts model ]
-            , header = [ viewHeader model ]
+            , header = viewHeader model
             , subnav = [ viewSubnav model ]
             , sidenav = [ viewSidenav model ]
             , main = [ mainContent model ]
             }
+        , ClarityUI.CDN.iconsJS
         ]
 
 
@@ -67,7 +70,13 @@ viewAlerts model =
 
 viewHeader : Model -> Html Msg
 viewHeader model =
-    div [] []
+    ClarityUI.Header.header
+        HC6
+        { branding = { icon = "vm-bug", title = "Elm Clarity UI" }
+        , nav = []
+        , search = []
+        , actions = []
+        }
 
 
 viewSubnav : Model -> Html Msg

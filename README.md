@@ -13,19 +13,21 @@ module Main exposing (..)
 
 import ClarityUI.CDN as CDN
 import ClarityUI.Layout as Layout
-
+import ClarityUI.Header as Header exposing (HeaderColor(..))
 
 view : Model -> Html Msg
 view model =
     div []
-        [ ClarityUI.CDN.styles
+        [ CDN.styles
+        , CDN.icons
         , ClarityUI.Layout.layout
             { alerts = [ viewAlerts model ]
-            , header = [ viewHeader model ]
+            , header = viewHeader model
             , subnav = [ viewSubnav model ]
             , sidenav = [ viewSidenav model ]
             , main = [ mainContent model ]
             }
+        , CDN.iconsJS
         ]
 
 
@@ -36,7 +38,13 @@ viewAlerts model =
 
 viewHeader : Model -> Html Msg
 viewHeader model =
-    div [] []
+    Header.header
+        HC6
+        { branding = { icon = "vm-bug", title = "Elm Clarity UI" }
+        , nav = []
+        , search = []
+        , actions = []
+        }
 
 
 viewSubnav : Model -> Html Msg

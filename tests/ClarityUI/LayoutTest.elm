@@ -1,7 +1,7 @@
 module ClarityUI.LayoutTest exposing (..)
 
 import ClarityUI.Layout as Layout
-import Html exposing (div)
+import Html exposing (div, header)
 import Test exposing (Test, test, describe)
 import Expect
 import Test.Html.Query as Query
@@ -14,7 +14,7 @@ testLayout =
         html =
             Layout.layout
                 { alerts = [ div [] [] ]
-                , header = [ div [] [] ]
+                , header = header [] []
                 , subnav = [ div [] [] ]
                 , sidenav = [ div [] [] ]
                 , main = [ div [] [] ]

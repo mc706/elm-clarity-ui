@@ -16,6 +16,8 @@ module ClarityUI.Alert
 
 {-| Clarity UI's Alerts.
 
+For more documentation on clarity alerts: <https://vmware.github.io/clarity/documentation/alerts>
+
 
 # Alerts
 

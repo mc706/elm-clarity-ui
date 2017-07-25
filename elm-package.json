@@ -12,7 +12,8 @@
         "ClarityUI.Grid",
         "ClarityUI.Icon",
         "ClarityUI.Card",
-        "ClarityUI.Layout"
+        "ClarityUI.Layout",
+        "ClarityUI.Header"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",

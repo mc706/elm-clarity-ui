@@ -9,8 +9,10 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
+* add header module
 
 ### Changes
+* change layout to pass in whole header element
 
 ### Fixes
 
