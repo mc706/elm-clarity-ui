@@ -5,6 +5,12 @@ module Main exposing (..)
 import Html exposing (..)
 
 
+-- app
+
+import ClarityUI.CDN
+import ClarityUI.Layout
+
+
 main : Program Never Model Msg
 main =
     Html.program
@@ -42,4 +48,13 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-    div [] []
+    div []
+        [ ClarityUI.CDN.styles
+        , ClarityUI.Layout.layout
+            { alerts = [ div [] [] ]
+            , header = [ div [] [] ]
+            , subnav = [ div [] [] ]
+            , sidenav = [ div [] [] ]
+            , main = [ div [] [] ]
+            }
+        ]
