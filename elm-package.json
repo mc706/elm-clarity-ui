@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "summary": "Elm Clarity UI is a wrapper library for the Clarity UI Framework",
     "repository": "https://github.com/mc706/elm-clarity-ui.git",
     "license": "MIT",

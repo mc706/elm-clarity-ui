@@ -12,16 +12,47 @@ Elm Package for Wrapping VM-Ware's Clarity UI.
 module Main exposing (..)
 
 import ClarityUI.CDN as CDN
-import ClarityUI.Grid as Grid
+import ClarityUI.Layout as Layout
+
 
 view : Model -> Html Msg
-view model = 
-  Grid.container []
-    [ CDN.styles
-    , CDN.icons
-    , layout model
-    , CDN.iconsJS
-    ]
+view model =
+    div []
+        [ ClarityUI.CDN.styles
+        , ClarityUI.Layout.layout
+            { alerts = [ viewAlerts model ]
+            , header = [ viewHeader model ]
+            , subnav = [ viewSubnav model ]
+            , sidenav = [ viewSidenav model ]
+            , main = [ mainContent model ]
+            }
+        ]
+
+
+viewAlerts : Model -> Html Msg
+viewAlerts model =
+    div [] []
+
+
+viewHeader : Model -> Html Msg
+viewHeader model =
+    div [] []
+
+
+viewSubnav : Model -> Html Msg
+viewSubnav model =
+    div [] []
+
+
+mainContent : Model -> Html Msg
+mainContent model =
+    div [] []
+
+
+viewSidenav : Model -> Html Msg
+viewSidenav model =
+    div [] []
+
 ```
 
 ## Inspiration
