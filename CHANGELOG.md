@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add layout module
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 1.5.0 - (2017-07-24)
+---
+
+### New
+* add layout module
 
 
 ## 1.4.0 - (2017-07-24)
