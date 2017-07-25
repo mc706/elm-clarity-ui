@@ -11,6 +11,7 @@ import ClarityUI.CDN
 import ClarityUI.Layout
 import ClarityUI.Header exposing (HeaderColor(..))
 import ClarityUI.Subnav
+import ClarityUI.Sidenav exposing (NavItem(Link, Group))
 
 
 main : Program Never Model Msg
@@ -97,4 +98,29 @@ mainContent model =
 
 viewSidenav : Model -> Html Msg
 viewSidenav model =
-    div [] []
+    ClarityUI.Sidenav.sidenav
+        [ Link { link = "#", text = "Nav Element 1" }
+        , Link { link = "#", text = "Nav Element 2" }
+        , Group
+            { id = "tab1"
+            , label = "Collapsible Nav Element"
+            , collapsible = True
+            , navList =
+                [ { link = "#", text = "Link 1" }
+                , { link = "#", text = "Link 2" }
+                ]
+            }
+        , Group
+            { id = "tab2"
+            , label = "Default Nav Element"
+            , collapsible = False
+            , navList =
+                [ { link = "#", text = "Link 1" }
+                , { link = "#", text = "Link 2" }
+                , { link = "#", text = "Link 3" }
+                , { link = "#", text = "Link 4" }
+                , { link = "#", text = "Link 5" }
+                , { link = "#", text = "Link 6" }
+                ]
+            }
+        ]

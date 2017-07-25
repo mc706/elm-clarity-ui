@@ -14,7 +14,8 @@
         "ClarityUI.Card",
         "ClarityUI.Layout",
         "ClarityUI.Header",
-        "ClarityUI.Subnav"
+        "ClarityUI.Subnav",
+        "ClarityUI.Sidenav"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
