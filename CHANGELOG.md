@@ -9,14 +9,26 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
+
+### Changes
+
+### Fixes
+
+### Breaks
+
+
+## 2.0.0 - (2017-07-25)
+---
+
+### New
 * add header module
 
 ### Changes
 * change layout to pass in whole header element
 
-### Fixes
 
 ### Breaks
+* update layout to have header as own module
 
 
 ## 1.5.2 - (2017-07-25)
