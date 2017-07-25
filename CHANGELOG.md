@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add sidenav module
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.2.0 - (2017-07-25)
+---
+
+### New
+* add sidenav module
 
 
 ## 2.1.0 - (2017-07-25)
