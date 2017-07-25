@@ -14,6 +14,9 @@ module Main exposing (..)
 import ClarityUI.CDN as CDN
 import ClarityUI.Layout as Layout
 import ClarityUI.Header as Header exposing (HeaderColor(..))
+import ClarityUI.Subnav as Subnav
+import ClarityUI.Sidenav as Sidenav exposing (NavItem(Link, Group))
+
 
 view : Model -> Html Msg
 view model =
@@ -49,7 +52,12 @@ viewHeader model =
 
 viewSubnav : Model -> Html Msg
 viewSubnav model =
-    div [] []
+    ClarityUI.Subnav.subnav
+        [ { link = "#", text = "Example1" }
+        , { link = "#", text = "Example2" }
+        , { link = "#", text = "Example3" }
+        , { link = "#", text = "Example4" }
+        ]
 
 
 mainContent : Model -> Html Msg
@@ -59,7 +67,32 @@ mainContent model =
 
 viewSidenav : Model -> Html Msg
 viewSidenav model =
-    div [] []
+    ClarityUI.Sidenav.sidenav
+        [ Link { link = "#", text = "Nav Element 1" }
+        , Link { link = "#", text = "Nav Element 2" }
+        , Group
+            { id = "tab1"
+            , label = "Collapsible Nav Element"
+            , collapsible = True
+            , navList =
+                [ { link = "#", text = "Link 1" }
+                , { link = "#", text = "Link 2" }
+                ]
+            }
+        , Group
+            { id = "tab2"
+            , label = "Default Nav Element"
+            , collapsible = False
+            , navList =
+                [ { link = "#", text = "Link 1" }
+                , { link = "#", text = "Link 2" }
+                , { link = "#", text = "Link 3" }
+                , { link = "#", text = "Link 4" }
+                , { link = "#", text = "Link 5" }
+                , { link = "#", text = "Link 6" }
+                ]
+            }
+        ]
 
 ```
 
