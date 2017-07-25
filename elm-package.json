@@ -15,7 +15,8 @@
         "ClarityUI.Layout",
         "ClarityUI.Header",
         "ClarityUI.Subnav",
-        "ClarityUI.Sidenav"
+        "ClarityUI.Sidenav",
+        "ClarityUI.Spinner"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
