@@ -17,6 +17,13 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### Breaks
 
 
+## 2.5.0 - (2017-07-26)
+---
+
+### New
+* add progress bar module
+
+
 ## 2.4.0 - (2017-07-26)
 ---
 
