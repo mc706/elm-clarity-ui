@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add buttons module
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.4.0 - (2017-07-26)
+---
+
+### New
+* add buttons module
 
 
 ## 2.3.0 - (2017-07-25)
