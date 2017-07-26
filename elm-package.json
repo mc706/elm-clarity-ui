@@ -17,7 +17,8 @@
         "ClarityUI.Subnav",
         "ClarityUI.Sidenav",
         "ClarityUI.Spinner",
-        "ClarityUI.Button"
+        "ClarityUI.Button",
+        "ClarityUI.ProgressBar"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
