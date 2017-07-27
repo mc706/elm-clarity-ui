@@ -1,5 +1,6 @@
 # elm-clarity-ui
-
+[![GitHub version](https://badge.fury.io/gh/mc706%2Felm-clarity-ui.svg)](https://badge.fury.io/gh/mc706%2Felm-clarity-ui)
+[![Github All Releases](https://img.shields.io/github/downloads/mc706/elm-clarity-ui/total.svg)]()
 [![Build Status](https://travis-ci.org/mc706/elm-clarity-ui.svg?branch=master)](https://travis-ci.org/mc706/elm-clarity-ui)
 [![Stories in Ready](https://badge.waffle.io/mc706/elm-clarity-ui.png?label=ready&title=Ready)](https://waffle.io/mc706/elm-clarity-ui?utm_source=badge)
 
