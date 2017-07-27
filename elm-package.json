@@ -18,7 +18,8 @@
         "ClarityUI.Sidenav",
         "ClarityUI.Spinner",
         "ClarityUI.Button",
-        "ClarityUI.ProgressBar"
+        "ClarityUI.ProgressBar",
+        "ClarityUI.Badge"
     ],
     "dependencies": {
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
