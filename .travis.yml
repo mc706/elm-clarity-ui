@@ -1,6 +1,12 @@
 os:
   - linux
 
+dist:
+  - trusty
+
+language:
+  - javascript
+
 cache:
   directories:
     - elm-stuff/build-artifacts
