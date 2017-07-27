@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add badge module
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.6.0 - (2017-07-26)
+---
+
+### New
+* add badge module
 
 
 ## 2.5.0 - (2017-07-26)
