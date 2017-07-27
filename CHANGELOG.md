@@ -9,13 +9,19 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ---
 
 ### New
-* add label module
 
 ### Changes
 
 ### Fixes
 
 ### Breaks
+
+
+## 2.7.0 - (2017-07-27)
+---
+
+### New
+* add label module
 
 
 ## 2.6.0 - (2017-07-26)
