@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### New
 
 ### Changes
+* update cdn to cdnjs from unpackage
 * add version and downloads badge to readme
 * change travis language to js
 * add travis caching
