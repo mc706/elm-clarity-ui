@@ -27,7 +27,7 @@ styles =
     node
         "link"
         [ rel "stylesheet"
-        , href "https://unpkg.com/clarity-ui@latest/clarity-ui.min.css"
+        , href "https://cdnjs.cloudflare.com/ajax/libs/clarity-ui/0.10.14/clarity-ui.min.css"
         ]
         []
 
@@ -39,7 +39,7 @@ icons =
     node
         "link"
         [ rel "stylesheet"
-        , href "https://unpkg.com/clarity-icons@latest/clarity-icons.min.css"
+        , href "https://cdnjs.cloudflare.com/ajax/libs/clarity-icons/0.10.14/clarity-icons.min.css"
         ]
         []
 
@@ -50,5 +50,5 @@ iconsJS : Html msg
 iconsJS =
     node
         "script"
-        [ src "https://unpkg.com/clarity-icons@latest/clarity-icons.min.js" ]
+        [ src "https://cdnjs.cloudflare.com/ajax/libs/clarity-icons/0.10.14/clarity-icons.min.js" ]
         []
