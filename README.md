@@ -33,6 +33,7 @@ view model =
             , main = [ mainContent model ]
             }
         , CDN.iconsJS
+        , CDN.iconsCEP
         ]
 
 

@@ -38,5 +38,16 @@ iconsJSTest =
             \() ->
                 CDN.iconsJS
                     |> Query.fromHtml
-                    |> Query.has [ attribute <| src "https://unpkg.com/clarity-icons@latest/clarity-icons.min.js" ]
+                    |> Query.has [ attribute <| src "https://cdnjs.cloudflare.com/ajax/libs/clarity-icons/0.10.14/clarity-icons.min.js" ]
+        ]
+
+
+iconsCEPTest : Test
+iconsCEPTest =
+    describe "Test Icons CDN CEP"
+        [ test "CDN.iconsCEP to include a script" <|
+            \() ->
+                CDN.iconsCEP
+                    |> Query.fromHtml
+                    |> Query.has [ attribute <| src "https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.19/custom-elements-es5-adapter.js" ]
         ]

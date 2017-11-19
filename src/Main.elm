@@ -62,6 +62,7 @@ view model =
             , main = [ mainContent model ]
             }
         , ClarityUI.CDN.iconsJS
+        , ClarityUI.CDN.iconsCEP
         ]
 
 
