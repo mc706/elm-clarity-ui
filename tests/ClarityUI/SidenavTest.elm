@@ -45,5 +45,5 @@ testSidenav =
                     html
                         |> Query.fromHtml
                         |> Query.children [ class "sidenav-content" ]
-                        |> Query.count (Expect.equal 1)
+                        |> Query.count (Expect.equal 0)
             ]
