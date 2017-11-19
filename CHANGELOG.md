@@ -17,10 +17,10 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### Breaks
 
 
-## 2.7.2 - (2017-11-18)
+## 2.8.0 - (2017-11-18)
 ---
 
-### Changes
+### New
 * add Custom Element Polyfill for Clarity Icons
 
 
