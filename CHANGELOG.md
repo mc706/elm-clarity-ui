@@ -13,9 +13,15 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 ### Changes
 
 ### Fixes
-* fix broken pipeline
 
 ### Breaks
+
+
+## 2.8.1 - (2017-11-19)
+---
+
+### Fixes
+* fix broken pipeline
 
 
 ## 2.8.0 - (2017-11-18)
